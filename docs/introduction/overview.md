@@ -5,16 +5,16 @@ sidebar_label: Overview
 slug: /
 ---
 
-# Welcome to Fathym IoT Ensemble
+# Welcome to Fathym LowCodeUnit
 
-Fathym IoT Ensemble is a platform focused on helping you to connect devices, understand data and scale IoT applications.
+Fathym LowCodeunit is a platform focused on helping you tohost, manage and scale your applications.
 
-Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.iot-ensemble.com/dashboard) today.
+Managing the learning path, usage and growth of cloud-native application development strategies can be a daunting challenge. Use LowCodeUnit to reliably deliver applications across hybrid-clouds. [Get started](https://www.lowcodeunit.com/dashboard) today.
 
-## Connect, Understand, Scale
+## Host, Manage, Scale
 
-When getting started with a new cloud-native IoT solution, you’re not only working towards connecting a device, but also on how to process and store its data in order to perform tasks such as visualization, machine learning, and application development. This requires learning a number of cloud-native technologies before being able to deliver a solution.
+When getting started with a new cloud-native application, you’re not only working towards hosting your code, but also on how to secure its data improve its maintainability, automate builds, setup new projects and more. This requires learning a number of cloud-native technologies before being able to deliver a solution.
 
-IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
+LowCodeUnit operates as a virtual development team that automates best practices for application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
 
-[Using the platform](https://www.iot-ensemble.com/dashboard) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
+[Using the platform](https://www.lowcodeunit.com/dashboard) radically reduces the time and work involved in getting apps hosted, securing their data, and delivering end-to-end customer driven user experiences.

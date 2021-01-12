@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'Fathym IoT Ensemble',
-  tagline: 'Experience IoT in minutes.',
-  url: 'https://www.iot-ensemble.com',
+  title: 'Fathym LowCodeUnit',
+  tagline: 'Experience application hosting in minutes.',
+  url: 'https://www.lowcodeunit.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
+  organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
   projectName: 'public-web', // Usually your repo name.
   themeConfig: {
     gtag: {
-      trackingID: 'G-NEWEXH7W8C',
+      trackingID: 'G-M1YCMB8N02',
     },
     colorMode: {
       // "light" | "dark"
@@ -19,9 +19,9 @@ module.exports = {
       disableSwitch: true
     },
     navbar: {
-      title: 'IoT Ensemble',
+      title: 'LowCodeUnit',
       logo: {
-        alt: 'IoT Ensemble',
+        alt: 'Fathym',
         src: 'img/Fathym-logo-aqua-01.png',
       },
       items: [
@@ -38,7 +38,7 @@ module.exports = {
         //  position: 'left',
         // },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: 'https://www.lowcodeunit.com/dashboard',
           label: 'Sign In',
           position: 'right'
         }
@@ -69,15 +69,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
+              href: 'https://stackoverflow.com/questions/tagged/lowcodeunit',
             },
             //{
             //  label: 'Discord',
-            //  href: 'https://discordapp.com/invite/iot-ensemble',
+            //  href: 'https://discordapp.com/invite/lowcodeunit',
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iot-ensemble',
+              href: 'https://twitter.com/lowcodeunit',
             },
           ],
         },
@@ -100,18 +100,18 @@ module.exports = {
       {
         'api-docs': {
           sidebarPath: require.resolve('./sidebars.js'),
-          // The iot-ensemble website repo
-          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
+          // The lowcodeunit website repo
+          editUrl: 'https://github.com/lowcodeunit/public-web/edit/master/website/',
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // The iot-ensemble website repo
-          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
+          // The lowcodeunit website repo
+          editUrl: 'https://github.com/lowcodeunit/public-web/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // The iot-ensemble website blog repo
-          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
+          // The lowcodeunit website blog repo
+          editUrl: 'https://github.com/lowcodeunit/public-web/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

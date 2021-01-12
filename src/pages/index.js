@@ -12,8 +12,7 @@ const features = [
     imageUrl: 'img/easy-to-use.png',
     description: (
       <>
-        Start with emulated device data and immediately see it flowing to a real-time dashboard. Connect
-        your physical device when you're ready. 
+        Start with simple application hosting and grow into micro-frontend architectures.  Leverage your existing development skills to get started.
       </>
     ),
   },
@@ -22,18 +21,18 @@ const features = [
     imageUrl: 'img/focus-on-what-matters.png',
     description: (
       <>
-        IoT Ensemble lets you focus on your applications and user experience – we’ll do the heavy lifting. 
+        LowCodeUnit lets you focus on your applications and user experience – we’ll do the heavy lifting. 
         Try it for free.
       </>
     ),
   },
   {
-    title: 'IoT Accelerated',
+    title: 'Development Accelerated',
     imageUrl: 'img/iot-accelerated.png',
     description: (
       <>
         Fathym automates best practice cloud infrastructure out of the box. Accelerate your adoption and 
-        usage of IoT technologies. Start today. 
+        usage of cloud technologies. Start today. 
       </>
     ),
   },
@@ -60,7 +59,7 @@ function Home() {
   return (
     <Layout
       title={`Home`}
-      description="IoT Ensemble">
+      description="LowCodeUnit">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

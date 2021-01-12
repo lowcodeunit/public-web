@@ -4,16 +4,16 @@ hide_title: true
 sidebar_label: Setup
 ---
 
-# Setting Up IoT Ensemble
+# Setting Up LowCodeUnit
 
-Fathym IoT Ensemble enables developers to rapidly connect devices using best practice workflows for cloud-native IoT applications.
+Fathym LowCodeUnit enables developers to rapidly build, host, and manage applications.
 
-In this getting started guide, in only a few clicks you'll be able to work with custom and emulated device data.  We'll walk through connecting a first device, and once setup, show how to access device data and connect it with downstream technologies (AI/ML, PowerBI, JS).  Finally, we'll walk through how to deliver these visualizations to customers in a secure way.  
+In this getting started guide, in only a few clicks you'll be able to work with custom and emulated device data.  We'll walk through connecting application code for hosting, and once setup, show how to secure applications, manage version and how to get things running on a custom domain.  Finally, we'll walk through how to deliver applications leveraging the underlying micro-frontend engine.  
 
-To kick things off, visit the [IoT Ensemble](https://www.iot-ensemble.com/dashboard) sign up page (no credit card required) and access the dashboard.
+To kick things off, visit the [LowCodeUnit](https://www.lowcodeunit.com/dashboard) sign up page (no credit card required) and access the dashboard.
 
-## IoT Ensemble Dashboard
+## LowCodeUnit Dashboard
 
-Once signed in, the IoT Ensemble Dashboard will load with a Free License.  A one stop, cloud-native IoT starting point, the dashboard is a control system for data emulation, connecting devices, understanding data and connecting with downstream services.
+Once signed in, the LowCodeUnit Dashboard will load with a Free License.  A one stop, cloud-native IoT starting point, the dashboard is a control system for application hosting, security, and managing applications.
 
-![Dashboard New](/img/screenshots/dashboard-new.png)
+<!-- ![Dashboard New](/img/screenshots/dashboard-new.png) -->
