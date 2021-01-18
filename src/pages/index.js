@@ -8,37 +8,34 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Create',
     imageUrl: 'img/easy-to-use.png',
     description: (
       <>
-        Start with simple application hosting and grow into micro-frontend architectures.  Leverage your existing development skills to get started.
+        Develop applications using existing development skills, languages, and tools. Start with simple application hosting and grow into
+        micro-frontend architectures.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Deploy',
     imageUrl: 'img/focus-on-what-matters.png',
     description: (
-      <>
-        LowCodeUnit lets you focus on your applications and user experience – we’ll do the heavy lifting. 
-        Try it for free.
-      </>
+      <>Deploy applications, secure user experiences, and automate developer workflows. We’ll do the heavy lifting, try it for free.</>
     ),
   },
   {
-    title: 'Development Accelerated',
+    title: 'Monetize',
     imageUrl: 'img/iot-accelerated.png',
     description: (
       <>
-        Fathym automates best practice cloud infrastructure out of the box. Accelerate your adoption and 
-        usage of cloud technologies. Start today. 
+        Lock down features with licenses and billing and automated entrprise scaling. 
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -55,22 +52,18 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
-    <Layout
-      title={`Home`}
-      description="LowCodeUnit">
+    <Layout title={`Home`} description="LowCodeUnit">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={siteConfig.url + useBaseUrl('dashboard/')}>
+              className={clsx('button button--outline button--secondary button--lg', styles.getStarted)}
+              to={siteConfig.url + useBaseUrl('dashboard/')}
+            >
               Sign Up
             </Link>
           </div>

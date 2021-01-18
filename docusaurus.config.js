@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Fathym LowCodeUnit',
-  tagline: 'Experience application hosting in minutes.',
+  tagline: 'Create. Deploy. Monetize.',
   url: 'https://www.lowcodeunit.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
